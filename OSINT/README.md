@@ -5,7 +5,7 @@ Instructions on how to run OSINT Script
 
 ######
 
-1. ++++ YOU MUST DO THIS ++++ - Change the tool variables (under section 'Tool Paths') so each tool will use your local paths. The prime example here is 'theHarvester' API keys.
+1. ++++ YOU MUST DO THIS ++++ - Change the tool variables (under section 'Tool Paths') so each tool will use your local paths.
 
 2. LinkedIn2Username requires you to be previously logged in and will require your password upon start. Main reason this runs first. 
 
