@@ -11,9 +11,16 @@ Instructions on how to run OSINT Script
 
 3. Where ever you start this script will be the top level directory. Sub folders and files will be created at this location
 
+4. If looking to run the advanced 'theHarvester' scan, ensure that the .yaml file in your local 'theHarvester' directory has your API keys.
+
 4. If looking to run a more advanced scan with 'DNSenum' ensure the 'subdomains-top1million-5000.txt' (from seclist) is located in the following directory: '/usr/share/wordlists/seclists/Discovery/DNS/'. Otherwise change the wordlist file within the script to the directory of your chosing. 
 
 5. DNSenum will take a pretty good amount of time to complete. Just FYI
 
+6. All output files will be stored in the 'Projects/$company' directory.   
+
 
 ######
+
+
+   ~Codenname
