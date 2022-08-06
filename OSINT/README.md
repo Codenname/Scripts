@@ -13,11 +13,15 @@ Instructions on how to run OSINT Script
 
 4. If looking to run the advanced 'theHarvester' scan, ensure that the .yaml file in your local 'theHarvester' directory has your API keys.
 
-4. If looking to run a more advanced scan with 'DNSenum' ensure the 'subdomains-top1million-5000.txt' (from seclist) is located in the following directory: '/usr/share/wordlists/seclists/Discovery/DNS/'. Otherwise change the wordlist file within the script to the directory of your chosing. 
+5. Recon-ng will use the modules that do not require API Keys. The ones that currently do are commented out so no errors get thrown. For best results, take some time and go get/enter the required API Keys. 
 
-5. DNSenum will take a pretty good amount of time to complete. Just FYI
+      (bing_api google_api shodan_api github_api builtwith_api twitter_api ipinfodb_api)
 
-6. All output files will be stored in the 'Projects/$company' directory.   
+6. If looking to run a more advanced scan with 'DNSenum' ensure the 'subdomains-top1million-5000.txt' (from seclist) is located in the following directory: '/usr/share/wordlists/seclists/Discovery/DNS/'. Otherwise change the wordlist file within the script to the directory of your chosing. 
+
+7. DNSenum will take a pretty good amount of time to complete. Just FYI
+
+8. All output files will be stored in the 'Projects/$company' directory.   
 
 
 ######
