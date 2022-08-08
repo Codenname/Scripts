@@ -16,6 +16,8 @@ Instructions on how to run OSINT Script
 5. Recon-ng will use the modules that do not require API Keys. The ones that currently do are commented out so no errors get thrown. For best results, take some time and go get/enter the required API Keys. 
 
       (bing_api google_api shodan_api github_api builtwith_api twitter_api ipinfodb_api)
+      
+6. Ensure to have a 'scope.txt' file located within 'Projects/$comapny' directory. If you do not, GoWitness will not run. 
 
 6. If looking to run a more advanced scan with 'DNSenum' ensure the 'subdomains-top1million-5000.txt' (from seclist) is located in the following directory: '/usr/share/wordlists/seclists/Discovery/DNS/'. Otherwise change the wordlist file within the script to the directory of your chosing. 
 
