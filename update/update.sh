@@ -57,12 +57,12 @@ if [ "$nmap_answer" = 'Y' ]; then
 	# Clear Screen
 	clear
 	echo " "
-	echo "${BLUE}   Script has finished and ready to hack"
+	echo "${BLUE}   Script has finished and ready to hack${NC}"
 	echo " "
 
 else
 	echo " "
-	echo "${ORANGE}   Skipping Updates"
+	echo "${ORANGE}   Skipping Updates${NC}"
 	echo " "
 fi
 
