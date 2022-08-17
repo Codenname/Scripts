@@ -24,7 +24,7 @@ echo " ${NC} "
 
 
 echo " "
-echo "${ORANGE} [+][+][+] Would you like to begin Updates? (y/n) ${NC}"
+echo "${ORANGE} [+][+][+] Would you like to begin Updates? (Y/N) ${NC}"
 read nmap_answer
 echo " "
 
