@@ -27,7 +27,10 @@ Instructions on how to run OSINT Script
 
 9. DNSenum will take a pretty good amount of time to complete. Just FYI
 
-10. All output files will be stored in the 'Projects/$company' directory.   
+10. All output files will be stored in the 'Projects/$company' directory.  
+
+11. Screenshots will only work on active window. If you click a different window, the scrot tool will take a picture of that and not the script running.
+      Always verify the screenshots!!!
 
 
 ######
