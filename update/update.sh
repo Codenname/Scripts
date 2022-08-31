@@ -49,6 +49,7 @@ if [ "$nmap_answer" = 'Y' ]; then
 	echo " "
 	sudo apt update > /dev/null 2>&1
 	sudo apt install exploitdb > /dev/null 2>&1
+	sudo searchsploit --update > /dev/null 2>&1
 	wait 5
 
 	# Remove Un-needed
